@@ -3,7 +3,7 @@ import './styles.css';
 function Navbar(){
     return(<>
   <nav className="nav">
-    <div className="container">
+    <div className="container-nav">
       <div className="site-title-left">
           <a href="/">Wannarat</a>
       </div>

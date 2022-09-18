@@ -1,21 +1,20 @@
 .nav{
     overflow: hidden;
     background-color: rgb(224, 247, 250);
-    height: 10vh;
     justify-content: center;
 }
 
-.container{
+.container-nav{
     display: flex;
     margin: 0 15%;
     justify-content: space-between;
 }
 
-
 .site-title-left{
     display: flex;
     justify-content: left;
 }
+
 .site-title-left a{
     float: left;
     display: block;
@@ -23,6 +22,8 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .site-title-right{
