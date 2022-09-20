@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import { useEffect } from 'react';
 import './App.css';
+import Education from './components/Education/education';
 import Home from './components/Home/home';
 import Navbar from './components/Navbar/Navbar';
 
@@ -15,6 +16,7 @@ function App() {
       <Navbar></Navbar>
       <div className="container">
         <Home></Home>
+        <Education></Education>
       </div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
