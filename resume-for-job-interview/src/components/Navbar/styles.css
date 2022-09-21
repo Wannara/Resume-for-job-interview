@@ -2,6 +2,9 @@
     overflow: hidden;
     background-color: rgb(224, 247, 250);
     justify-content: center;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
 }
 
 .container-nav{

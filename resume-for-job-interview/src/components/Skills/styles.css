@@ -1,0 +1,36 @@
+.container-skills {
+    display: block;
+    margin: 0 5%;
+    padding: 30px 0;
+
+}
+
+.container {
+    align-content: center;
+}
+
+.content-skills {
+    display:block;
+    margin: 0 15%;
+}
+
+.topic {
+    text-align: left;
+    color: rgb(125, 121, 121);
+    font-weight: 700; 
+}
+
+.topic-skill {
+    text-align: left;
+    color: rgb(125, 121, 121);
+    font-weight: 700;
+    padding-left: 3rem;
+}
+
+.languages {
+    text-align: left;
+    color: rgb(125, 121, 121);
+    font-weight: 600;
+    padding-left: 6rem;
+}
+
