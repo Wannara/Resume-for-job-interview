@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+.footer{
+  background-color: rgb(224, 247, 250);
+  justify-content: center;
+  z-index: 1;
+  width: 100%;
+  padding-top: 2rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
