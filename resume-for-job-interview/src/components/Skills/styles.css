@@ -32,3 +32,11 @@
   font-weight: 600;
   padding-left: 6rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .content-skills{
+    display: block;
+    margin: 0 0%;
+  }
+
+}

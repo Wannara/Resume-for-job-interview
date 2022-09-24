@@ -13,6 +13,15 @@
     display: flex;
     margin: 0 15%;
     padding: 0 0 10px 0;
+    position: relative;
+}
+
+.picture{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 
 }
 
