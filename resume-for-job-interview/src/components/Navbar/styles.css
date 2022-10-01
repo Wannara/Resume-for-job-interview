@@ -50,6 +50,9 @@
   text-decoration: none;
 }
 
+.container-nav-mobile{
+  display:none;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -95,6 +98,11 @@
     color: rgb(125, 121, 121);
     padding: 14px 50px;
   }
+
+  .non-active {
+    display: none;
+  }
+
 
   /*.row-1{*/
   /*  display: flex;*/
