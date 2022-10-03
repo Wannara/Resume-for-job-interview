@@ -2,7 +2,7 @@ import './styles.css'
 function Home() {
   return (
     <>
-      <div className="container-home">
+      <div id="home" className="container-home">
         <div className="content">
           <h1 className="topic">Hi, I’m Wannarat</h1>
           <h3 className="detail-description">

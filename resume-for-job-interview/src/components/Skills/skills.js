@@ -2,7 +2,7 @@ import './styles.css'
 
 function Skills() {
   return (
-    <div className="container-skills">
+    <div id="skills" className="container-skills">
       <h1 className="topic-education">Skills</h1>
 
       <div className="content-skills">

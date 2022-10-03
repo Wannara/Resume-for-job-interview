@@ -13,11 +13,11 @@ function Navbar() {
             <a href="/">Wannarat</a>
           </div>
           <div className="site-title-right">
-            <a href="/">Home</a>
-            <a href="/">Education</a>
-            <a href="/">Experiences</a>
-            <a href="/">Skills</a>
-            <a href="/">Contact Me</a>
+            <a href="#home">Home</a>
+            <a href="#education">Education</a>
+            <a href="#experiences">Experiences</a>
+            <a href="#skills">Skills</a>
+            <a href="#Contact Me">Contact Me</a>
           </div>
           <div
             className="icon"
@@ -31,23 +31,23 @@ function Navbar() {
 
         <div className="container-nav-mobile">
           <div className={!isOpen ? 'row non-active' : 'row'}>
-            <a href="/">
+            <a href="#home">
               <FaHome />
               Home
             </a>
-            <a href="/">
+            <a href="#education">
               <FaUserGraduate />
               Education
             </a>
-            <a href="/">
+            <a href="#experiences">
               <FaUserGraduate />
               Experiences
             </a>
-            <a href="/">
+            <a href="#skills">
               <FaUserGraduate />
               Skills
             </a>
-            <a href="/">
+            <a href="#Contact Me">
               <FaUserGraduate />
               Contact Me
             </a>
