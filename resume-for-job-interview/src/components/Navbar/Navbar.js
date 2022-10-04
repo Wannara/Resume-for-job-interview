@@ -31,56 +31,52 @@ function Navbar() {
 
         <div className="container-nav-mobile">
           <div className={!isOpen ? 'row non-active' : 'row'}>
-            <a href="#home">
+            <a
+              href="#home"
+              onClick={() => {
+                setIsOpen(!isOpen)
+              }}
+            >
               <FaHome />
               Home
             </a>
-            <a href="#education">
+            <a
+              href="#education"
+              onClick={() => {
+                setIsOpen(!isOpen)
+              }}
+            >
               <FaUserGraduate />
               Education
             </a>
-            <a href="#experiences">
+            <a
+              href="#experiences"
+              onClick={() => {
+                setIsOpen(!isOpen)
+              }}
+            >
               <FaUserGraduate />
               Experiences
             </a>
-            <a href="#skills">
+            <a
+              href="#skills"
+              onClick={() => {
+                setIsOpen(!isOpen)
+              }}
+            >
               <FaUserGraduate />
               Skills
             </a>
-            <a href="#Contact Me">
+            <a
+              href="#Contact Me"
+              onClick={() => {
+                setIsOpen(!isOpen)
+              }}
+            >
               <FaUserGraduate />
               Contact Me
             </a>
           </div>
-
-          {/*<div className="row-1">*/}
-          {/*  <div className="icon-nav">*/}
-          {/*    <FaHome />*/}
-          {/*    <a href="/">Home</a>*/}
-          {/*  </div>*/}
-
-          {/*  <div className="icon-nav">*/}
-          {/*    <FaHome />*/}
-          {/*    <a href="/">Education</a>*/}
-          {/*  </div>*/}
-
-          {/*  <div className="icon-nav">*/}
-          {/*    <FaHome />*/}
-          {/*    <a href="/">Experiences</a>*/}
-          {/*  </div>*/}
-          {/*</div>*/}
-
-          {/*<div className="row-1">*/}
-          {/*  <div className="icon-nav">*/}
-          {/*    <FaHome />*/}
-          {/*    <a href="/">Skills</a>*/}
-          {/*  </div>*/}
-
-          {/*  <div className="icon-nav">*/}
-          {/*    <FaHome />*/}
-          {/*    <a href="/">Contact Me</a>*/}
-          {/*  </div>*/}
-          {/*</div>*/}
         </div>
       </nav>
     </>

@@ -19,7 +19,6 @@ function App() {
         <Skills />
         <ContactMe />
       </div>
-      <div className="footer">© Wannarat. All right reserved</div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -34,6 +33,7 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <div className="footer">© Wannarat. All right reserved</div>
     </div>
   )
 }
