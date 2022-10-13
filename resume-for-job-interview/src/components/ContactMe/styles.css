@@ -29,6 +29,7 @@
     color: rgb(125, 121, 121);
     text-align: left;
     padding-left: 3rem;
+    font-size: clamp(16px,4vw,22px)
 }
 
 @media screen and (max-width: 1024px) {

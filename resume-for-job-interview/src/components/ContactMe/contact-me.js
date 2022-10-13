@@ -15,17 +15,6 @@ function ContactMe() {
       <div className="content-contact">
         <div className="contact">
           <div className="picture">
-            <FaMapPin size={30} />
-          </div>
-          <h3 className="text-contact">
-            290/27 Mu Baan Rungthana3, Village No.3,
-            <br />
-            San Pu Loei Sub-district, Doi Saket district, Chiang Mai, 50220
-          </h3>
-        </div>
-
-        <div className="contact">
-          <div className="picture">
             <FaEnvelope size={30} />
           </div>
           <h3 className="text-contact">wannarat.boonwong@gmail.com</h3>

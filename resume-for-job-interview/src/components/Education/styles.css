@@ -17,6 +17,8 @@
 
 .year-education {
   display: block;
+  width: 40%;
+
 }
 
 .text-year {
@@ -54,4 +56,43 @@
   height: 100px;
   background: rgb(125, 121, 121);
   margin: 0px auto 0 auto;
+}
+
+.program-study{
+  width:40%;
+}
+
+.white-space{
+  white-space: nowrap;
+}
+
+.education-moblie{
+  display: none;
+}
+
+@media screen and (max-width: 615px) {
+  .content-education{
+    display: none;
+  }
+
+  .education-moblie{
+    display: flex;
+  }
+
+  .year-education{
+    display: block;
+    width: 100%;
+
+  }
+  .text-year{
+    text-align: left;
+    padding: 0;
+  }
+  .text-study{
+    padding: 0;
+  }
+  .vertical{
+    height: 135px;
+  }
+
 }
