@@ -33,7 +33,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <div className="footer">© Wannarat. All right reserved บี้ดกาก</div>
+      <div className="footer">© Wannarat. All right reserved</div>
     </div>
   )
 }
