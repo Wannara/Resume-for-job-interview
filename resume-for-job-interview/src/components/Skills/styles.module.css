@@ -1,4 +1,4 @@
-.container-skills {
+.containerSkills {
   display: block;
   margin: 0 5%;
   padding: 30px 0;
@@ -8,18 +8,23 @@
   align-content: center;
 }
 
-.content-skills {
+.contentSkills {
   display: block;
   margin: 0 15%;
 }
+.topicSkills {
+  color: rgb(125, 121, 121);
+  font-weight: 700;
+  text-align: center;
+}
 
-.topic {
+.topicHead {
   text-align: left;
   color: rgb(125, 121, 121);
   font-weight: 700;
 }
 
-.topic-skill {
+.topicSkill {
   text-align: left;
   color: rgb(125, 121, 121);
   font-weight: 700;
@@ -29,12 +34,12 @@
 .languages {
   text-align: left;
   color: rgb(125, 121, 121);
-  font-weight: 600;
+  font-weight: 400;
   padding-left: 6rem;
 }
 
 @media screen and (max-width: 1024px) {
-  .content-skills{
+  .contentSkills{
     display: block;
     margin: 0 0%;
   }

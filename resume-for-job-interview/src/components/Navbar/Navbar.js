@@ -1,26 +1,27 @@
-import './styles.css'
+import styles from './styles.module.css'
 import { FaBars, FaHome, FaUserGraduate } from 'react-icons/fa'
 import { useState } from 'react'
+import clsx from 'clsx'
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
     <>
-      <nav className="nav">
-        <div className="container-nav">
-          <div className="site-title-left">
+      <nav className={styles.nav}>
+        <div className={styles.containerNav}>
+          <div className={styles.siteTitleLeft}>
             <a href="/">Wannarat</a>
           </div>
-          <div className="site-title-right">
+          <div className={styles.siteTitleRight}>
             <a href="#home">Home</a>
             <a href="#education">Education</a>
             <a href="#experiences">Experiences</a>
             <a href="#skills">Skills</a>
-            <a href="#Contact Me">Contact Me</a>
+            <a href="#ContactMe">Contact Me</a>
           </div>
           <div
-            className="icon"
+            className={styles.icon}
             onClick={() => {
               setIsOpen(!isOpen)
             }}
@@ -29,8 +30,8 @@ function Navbar() {
           </div>
         </div>
 
-        <div className="container-nav-mobile">
-          <div className={!isOpen ? 'row non-active' : 'row'}>
+        <div className={styles.containerNavMobile}>
+          <div className={clsx(styles.row, !isOpen ? styles.nonActive : '')}>
             <a
               href="#home"
               onClick={() => {
@@ -68,7 +69,7 @@ function Navbar() {
               Skills
             </a>
             <a
-              href="#Contact Me"
+              href="#ContactMe"
               onClick={() => {
                 setIsOpen(!isOpen)
               }}

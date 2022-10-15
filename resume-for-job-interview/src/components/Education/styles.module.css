@@ -1,24 +1,24 @@
-.container-education {
+.containerEducation {
   margin: 0 5%;
   padding: 30px 0;
 }
 
-.topic-education {
+.topicEducation {
   color: rgb(125, 121, 121);
   font-weight: 700;
   text-align: center;
 }
 
-.content-education {
+.contentEducation {
   display: block;
   justify-content: center;
 }
 
-.time-line{
+.timeLine{
   display: flex;
   align-content: stretch;
 }
-.time-line:last-of-type .line {
+.timeLine:last-of-type .line {
   display: none;
 }
 .pipe {
@@ -40,12 +40,12 @@
   margin: auto;
 }
 
-.text-content {
+.textContent {
   padding:  0 16px 16px 16px;
   width: 50%;
 }
 
-.text-year {
+.textYear {
   text-align: right;
   color: rgb(125, 121, 121);
   font-weight: 700;
@@ -53,46 +53,45 @@
   margin: 0;
 }
 
-.text-study {
+.textStudy {
   text-align: left;
   color: rgb(125, 121, 121);
-  font-weight: 600;
-
+  font-weight: 400;
   margin: 0;
 }
 
-.white-space{
+.whiteSpace{
   white-space: nowrap;
 }
 
-.education-mobile{
+.educationMobile{
   display: none;
 }
 
 @media screen and (max-width: 685px) {
-  .content-education{
+  .contentEducation{
     display: none;
   }
 
-  .education-mobile{
+  .educationMobile{
     display: block;
     margin: 0 15%;
   }
 
-  .text-year{
+  .textYear{
     text-align: left;
     padding-bottom: 20px;
   }
 
-  .text-study{
+  .textStudy{
     padding-bottom: 20px;
   }
 
-  .text-content{
+  .textContent{
     width: 100%;
   }
 
-  .time-line:last-of-type .line {
+  .timeLine:last-of-type .line {
     display: flex;
   }
 
