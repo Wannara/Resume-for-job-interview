@@ -1,5 +1,5 @@
 import styles from './styles.module.css'
-import { FaBars, FaHome, FaUserGraduate } from 'react-icons/fa'
+import { FaBars, FaHome, FaUserGraduate, FaPhoneAlt, FaFile, FaScrewdriver } from 'react-icons/fa'
 import { useState } from 'react'
 import clsx from 'clsx'
 
@@ -38,7 +38,9 @@ function Navbar() {
                 setIsOpen(!isOpen)
               }}
             >
-              <FaHome />
+              <span className={styles.anchor}>
+                <FaHome />
+              </span>
               Home
             </a>
             <a
@@ -47,7 +49,9 @@ function Navbar() {
                 setIsOpen(!isOpen)
               }}
             >
-              <FaUserGraduate />
+              <span className={styles.anchor}>
+                <FaUserGraduate />
+              </span>
               Education
             </a>
             <a
@@ -56,7 +60,9 @@ function Navbar() {
                 setIsOpen(!isOpen)
               }}
             >
-              <FaUserGraduate />
+              <span className={styles.anchor}>
+                <FaFile />
+              </span>
               Experiences
             </a>
             <a
@@ -65,7 +71,9 @@ function Navbar() {
                 setIsOpen(!isOpen)
               }}
             >
-              <FaUserGraduate />
+              <span className={styles.anchor}>
+                <FaScrewdriver />
+              </span>
               Skills
             </a>
             <a
@@ -74,7 +82,9 @@ function Navbar() {
                 setIsOpen(!isOpen)
               }}
             >
-              <FaUserGraduate />
+              <span className={styles.anchor}>
+                <FaPhoneAlt />
+              </span>
               Contact Me
             </a>
           </div>

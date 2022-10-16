@@ -97,11 +97,15 @@
 
   .row a {
     color: rgb(125, 121, 121);
-    padding: 14px 50px;
+    margin: 14px calc(16px + 2%);
   }
 
   .nonActive {
     display: none;
+  }
+
+  .anchor{
+    padding-right: 1rem;
   }
 
 }

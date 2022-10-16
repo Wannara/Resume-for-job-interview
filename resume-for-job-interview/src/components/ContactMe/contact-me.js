@@ -1,5 +1,5 @@
 import styles from './styles.module.css'
-import { FaEnvelope, FaGithubSquare, FaPhoneAlt } from 'react-icons/fa'
+import { FaEnvelope, FaGithubSquare, FaLinkedin } from 'react-icons/fa'
 
 function ContactMe() {
   return (
@@ -16,16 +16,23 @@ function ContactMe() {
 
           <div className={styles.contact}>
             <div className={styles.picture}>
-              <FaPhoneAlt size={30} />
+              <FaLinkedin size={30} />
             </div>
-            <h3 className={styles.textContact}>061-3426-963</h3>
+            <a
+              href="https://www.linkedin.com/in/wannarat-boonwong-a44478236
+"
+            >
+              <h3 className={styles.textContact}>Wannarat Boonwong</h3>
+            </a>
           </div>
 
           <div className={styles.contact}>
             <div className={styles.picture}>
               <FaGithubSquare size={30} />
             </div>
-            <h3 className={styles.textContact}>github.com/Wannara</h3>
+            <a href="https://github.com/Wannara">
+              <h3 className={styles.textContact}>github.com/Wannara</h3>
+            </a>
           </div>
         </div>
       </div>
