@@ -11,7 +11,7 @@ import ContactMe from './components/ContactMe/contact-me'
 function App() {
   return (
     <div className={styles.App}>
-      <Navbar></Navbar>
+      <Navbar />
       <div className={styles.container}>
         <Home></Home>
         <Education />

@@ -42,7 +42,7 @@ function Experiences() {
             <div className={styles.textContent}>
               <h3 className={styles.textStudy}>
                 Manao Software Co., Ltd. <br />
-                Junior Web Developer
+                Web Developer
               </h3>
             </div>
           </div>
@@ -63,7 +63,7 @@ function Experiences() {
             <div className={styles.textContent}>
               <h3 className={styles.textStudy}>
                 Manao Software Co., Ltd. <br />
-                Junior Web Developer
+                Web Developer
               </h3>
             </div>
           </div>
@@ -103,7 +103,7 @@ function Experiences() {
 
               <h3 className={styles.textStudy}>
                 Manao Software Co., Ltd. <br />
-                Junior Web Developer
+                Web Developer
               </h3>
             </div>
           </div>
@@ -122,7 +122,7 @@ function Experiences() {
 
               <h3 className={styles.textStudy}>
                 Manao Software Co., Ltd. <br />
-                Junior Web Developer
+                Web Developer
               </h3>
             </div>
           </div>
